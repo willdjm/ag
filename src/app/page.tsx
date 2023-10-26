@@ -5,6 +5,7 @@ import { App } from "./components/App";
 import { Banner } from "./components/Banner";
 import { NavBar } from "./components/NavBar";
 import { Parcerias } from "./components/Parcerias";
+import { Contact } from "./components/contact";
 
 
 export default function Home() {
@@ -16,7 +17,8 @@ export default function Home() {
 <Banner/>
 {/* <About/> */}
 <App/>
-{/* <Parcerias/> */}
+<Parcerias/>
+<Contact/>
 
       </>
 
