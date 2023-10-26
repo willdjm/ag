@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import { Link } from 'react-scroll';
-import Linki from 'next/link';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
