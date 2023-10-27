@@ -13,7 +13,7 @@ Veja algumas das corrias de rua oficiais em que a Águia Assessoria Esportiva aj
 </div>
 
 
-<div className="grid lg:grid-cols-4 lg:justify-center lg:items-center gap-5">
+<div className="grid grid-cols-2 lg:grid-cols-4 lg:justify-center lg:items-center gap-5">
 <button className="flex max-w-lg p-5 px-16 py-6 items-center justify-center bg-white shadow-md w-full">
 <picture>
 <img src="./logo-4-elementos1.svg" alt="" />

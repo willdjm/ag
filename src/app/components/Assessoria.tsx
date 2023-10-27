@@ -12,7 +12,7 @@ return (
 </div>
 
 
-<div className="lg:flex grid lg:justify-center lg:items-center justify-items-center gap-5 pt-10">
+<div className="md:flex grid lg:justify-center lg:items-center justify-items-center gap-5 pt-10">
 <div className="flex ld:max-w-lg p-5 lg:px-28 px-20 py-9 items-center justify-center bg-green-500 text-white shadow-md w-full">
 <p className="text-xl">Amadores</p>
 </div>
