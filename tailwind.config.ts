@@ -11,7 +11,8 @@ const config: Config = {
       colors: {
         "blue": {
           "500": "#3C6FA5",
-          "400": "#22B3FF"
+          "400": "#22B3FF",
+          "600": "#2B71B9"
         },
       },
       backgroundImage: {

@@ -7,6 +7,7 @@ import { Banner } from "./components/Banner";
 import { Circuito } from "./components/Circuito";
 import { NavBar } from "./components/NavBar";
 import { Parcerias } from "./components/Parcerias";
+import { Participacao } from "./components/Participacao";
 import { Treinador } from "./components/Treinador";
 import { Contact } from "./components/contact";
 
@@ -19,6 +20,7 @@ export default function Home() {
 <NavBar/>
 <Banner/>
 {/* <About/> */}
+<Participacao/>
 <Circuito/>
 <TresAnos/>
 <Treinador/>
