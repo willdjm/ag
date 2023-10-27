@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         "blue": {
-          "500": "#3C6FA5"
+          "500": "#3C6FA5",
+          "400": "#22B3FF"
         },
       },
       backgroundImage: {

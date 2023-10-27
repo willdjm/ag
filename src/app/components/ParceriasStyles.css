@@ -1,0 +1,28 @@
+.swiper {
+  width: 600px;
+  height: 600px;
+  padding: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+}
+
+.swiper-slide img {
+  display: flex;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+
+  .swiper {
+  width: 350px;
+  height: 350px;
+  padding: 40px;
+}
+
+  }
+
