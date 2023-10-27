@@ -3,6 +3,7 @@
 import { TresAnos } from "./components/3anos";
 import { About } from "./components/About";
 import { App } from "./components/App";
+import { Assessoria } from "./components/Assessoria";
 import { Banner } from "./components/Banner";
 import { Circuito } from "./components/Circuito";
 import { NavBar } from "./components/NavBar";
@@ -20,6 +21,7 @@ export default function Home() {
 <NavBar/>
 <Banner/>
 {/* <About/> */}
+<Assessoria/>
 <Participacao/>
 <Circuito/>
 <TresAnos/>
