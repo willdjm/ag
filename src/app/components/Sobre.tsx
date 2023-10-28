@@ -33,10 +33,12 @@ return (
     <h3 className="text-white md:text-3xl text-xl max-w-sm text-center">Quer treinar com a
       Águia Assessoria Esportiva?</h3>
     <p className="text-center text-sm text-white max-w-lg hidden lg:grid">Somos especialistas em corrida de rua.
-      <p className="text-center text-sm text-white max-w-lg hidden lg:grid">Nossos treinadores irmão te preparar, entre em contato.</p> </p>
+      <span className="text-center text-sm text-white max-w-lg hidden lg:grid">Nossos treinadores irmão te preparar, entre em contato.</span> </p>
     <p className="text-center text-sm text-white max-w-lg flex lg:hidden">Somos especialistas em corrida de rua. Nossos treinadores irmão te preparar, entre em contato.</p>
     <button className="bg-white text-blue-600 font-bold py-1.5 px-5 rounded-full text-xs">
+      <p>
       Contate-nos agora
+      </p>
     </button>
   </div>
 </div>

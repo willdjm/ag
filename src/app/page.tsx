@@ -6,7 +6,7 @@ import { Assessoria } from "./components/Assessoria/Assessoria";
 import { Banner } from "./components/Banner";
 import { NavBar } from "./components/NavBar";
 import { Parcerias } from "./components/Parcerias";
-import { Participacao } from "./components/Participacao";
+import { Participacao } from "./components/Participacao/Participacao";
 import { Treinador } from "./components/Treinador";
 import { Contact } from "./components/contact";
 import { Circuito } from "./components/Circuito/Circuito";
