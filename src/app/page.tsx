@@ -12,6 +12,7 @@ import { Treinador } from "./components/Treinador";
 import { Contact } from "./components/contact";
 import { Circuito } from "./components/Circuito/Circuito";
 import { Caroucel } from "./components/Caroucel/Caroucel";
+import { Video } from "./components/Video";
 
 
 export default function Home() {
@@ -24,13 +25,14 @@ export default function Home() {
 {/* <About/> */}
 <Caroucel/>
 <Assessoria/>
+<Video/>
 <Participacao/>
 <Circuito/>
 <TresAnos/>
 <Treinador/>
-{/* <App/>
+<App/>
 <Parcerias/>
-<Contact/> */}
+<Contact/>
 
       </>
 
