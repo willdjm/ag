@@ -1,0 +1,20 @@
+{
+  "slides": [
+    {
+      "src": "/Rectangle42.svg",
+      "alt": "Image 1 for carousel"
+    },
+    {
+      "src": "/Rectangle43.svg",
+      "alt": "Image 2 for carousel"
+    },
+    {
+      "src": "/Rectangle44.svg",
+      "alt": "Image 2 for carousel"
+    },
+    {
+      "src": "/Rectangle43.svg",
+      "alt": "Image 3 for carousel"
+    }
+  ]
+}

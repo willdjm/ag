@@ -7,8 +7,8 @@ return (
 <section id="Contact" className="flex justify-center flex-col lg:h-screen items-center">
 <div className='flex flex-col justify-between justify-items-center lg:max-w-6xl w-full lg:py-16 py-10'>
 <div className="grid w-full justify-items-center justify-center items-center">
-<div className="lg:flex lg:flex-col items-center lg:justify-center lg:items-center gap-10 w-full lg:mb-0 lg:w-full lg:max-w-lg ">
-<h3 className="lg:text-2xl text-xl text-blue-500 text-center px-5">Assessoria completa para todos os perfis e estágios de alunos.</h3>
+<div className="lg:flex lg:flex-col items-center lg:justify-center lg:items-center gap-10 w-full lg:mb-0 lg:w-full lg:max-w-lg justify-center  flex ">
+<h3 className="lg:text-2xl text-xl text-blue-500 text-center px-5 max-w-md">Assessoria completa para todos os perfis e estágios de alunos.</h3>
 </div>
 
 
@@ -28,7 +28,7 @@ return (
 <div className='w-full items-center justify-center justify-items-center grid grid-cols-2 md:grid-cols-4 lg:gap-4 gap-1 px-3  pt-8'>
 
 
-<div className="flip-card lg:w-52 lg:h-52 w-40 h-40">
+<div className="flip-card lg:w-52 lg:h-52 w-36 h-36">
 <div className="flip-card-inner">
 <div className="flip-card-front bg-blue-600 text-white flex flex-col items-center justify-center">
 <picture>
@@ -47,7 +47,7 @@ físico</p>
 </div>
 </div>
 
-<div className="flip-card lg:w-52 lg:h-52 w-40 h-40">
+<div className="flip-card lg:w-52 lg:h-52 w-36 h-36">
 <div className="flip-card-inner">
 <div className="flip-card-front bg-blue-600 text-white flex flex-col items-center justify-center">
 <picture>
@@ -64,7 +64,7 @@ físico</p>
 </div>
 </div>
 
-<div className="flip-card lg:w-52 lg:h-52 w-40 h-40">
+<div className="flip-card lg:w-52 lg:h-52 w-36 h-36">
 <div className="flip-card-inner">
 <div className="flip-card-front bg-blue-600 text-white flex flex-col items-center justify-center">
 <picture>
@@ -81,7 +81,7 @@ físico</p>
 </div>
 </div>
 
-<div className="flip-card lg:w-52 lg:h-52 w-40 h-40">
+<div className="flip-card lg:w-52 lg:h-52 w-36 h-36">
 <div className="flip-card-inner">
 <div className="flip-card-front bg-blue-600 text-white flex flex-col items-center justify-center">
 <picture>
@@ -100,7 +100,7 @@ funcional</p>
 </div>
 </div>
 
-<div className="flip-card lg:w-52 lg:h-52 w-40 h-40">
+<div className="flip-card lg:w-52 lg:h-52 w-36 h-36">
 <div className="flip-card-inner">
 <div className="flip-card-front bg-blue-600 text-white flex flex-col items-center justify-center">
 <picture>
@@ -117,7 +117,7 @@ funcional</p>
 </div>
 </div>
 
-<div className="flip-card lg:w-52 lg:h-52 w-40 h-40">
+<div className="flip-card lg:w-52 lg:h-52 w-36 h-36">
 <div className="flip-card-inner">
 <div className="flip-card-front bg-blue-600 text-white flex flex-col items-center justify-center">
 <picture>
@@ -136,7 +136,7 @@ técnico</p>
 </div>
 </div>
 
-<div className="flip-card lg:w-52 lg:h-52 w-40 h-40">
+<div className="flip-card lg:w-52 lg:h-52 w-36 h-36">
 <div className="flip-card-inner">
 <div className="flip-card-front bg-blue-600 text-white flex flex-col items-center justify-center">
 <picture>
@@ -155,7 +155,7 @@ de vida</p>
 </div>
 </div>
 
-<div className="flip-card lg:w-52 lg:h-52 w-40 h-40">
+<div className="flip-card lg:w-52 lg:h-52 w-36 h-36">
 <div className="flip-card-inner">
 <div className="flip-card-front bg-blue-600 text-white flex flex-col items-center justify-center">
 <picture>
