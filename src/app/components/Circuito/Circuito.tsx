@@ -17,7 +17,7 @@ Veja algumas das provas e desafios promovidos pela Águia Assessoria Esportiva:
 </div>
 
 
-<div className="grid md:flex lg:justify-center lg:items-center gap-10 px-8">
+<div className="grid md:flex lg:justify-center lg:items-center lg:gap-10 gap-5 px-8">
 <button className="flex max-w-lg p-5 px-16 py-6 items-center justify-center bg-blue-400 shadow-md w-full">
 <picture>
 <img src="./imagem1.svg" alt="" />

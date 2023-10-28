@@ -1,19 +1,19 @@
 {
   "slides": [
     {
-      "src": "/Rectangle42.svg",
-      "alt": "Image 1 for carousel"
+      "src": "/public/Rectangle51.png",
+      "alt": "Image 1 for carouselxxxxx"
     },
     {
-      "src": "/Rectangle43.svg",
+      "src": "/Rectangle38.svg",
       "alt": "Image 2 for carousel"
     },
     {
-      "src": "/Rectangle44.svg",
+      "src": "/Rectangle38.svg",
       "alt": "Image 2 for carousel"
     },
     {
-      "src": "/Rectangle43.svg",
+      "src": "/Rectangle38.svg",
       "alt": "Image 3 for carousel"
     }
   ]

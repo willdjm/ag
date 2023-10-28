@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 
+
 export const Slider = ({ data }) => {
   const [slide, setSlide] = useState(0);
 
@@ -13,22 +14,22 @@ export const Slider = ({ data }) => {
   };
 
   return (
-    <div className="carousel flex items-center justify-center">
-      <BsArrowLeftCircleFill onClick={prevSlide} className="arrow arrow-left w-8 h-8 text-blue-400 bg-white cursor-pointer" />
+    <div className="flex items-center justify-center">
+      <BsArrowLeftCircleFill onClick={prevSlide} className="w-8 h-8 text-blue-400 bg-white cursor-pointer" />
       {data.map((item, idx) => {
         return (
-          <picture key={idx}>
-          <img
-            src={item.src}
-            alt={item.alt}
-            className={slide === idx ? "slide w-80 h-64 md:w-[32rem] md:h-[24rem] rounded-2xl" : "slide slide-hidden hidden"}
-          />
-          </picture>
+<picture key={idx}>
+<img
+src={item.src}
+alt={item.alt}
+className={slide === idx ? "w-80 h-64 md:w-[32rem] md:h-[24rem] rounded-2xl" : "hidden"}
+/>
+</picture>
         );
       })}
       <BsArrowRightCircleFill
         onClick={nextSlide}
-        className="arrow arrow-right w-8 h-8 text-blue-400 bg-white cursor-pointer "
+        className="w-8 h-8 text-blue-400 bg-white cursor-pointer "
       />
       <span className="indicators">
         {data.map((_, idx) => {

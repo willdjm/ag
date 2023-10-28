@@ -25,8 +25,8 @@ export default function Home() {
 <Caroucel/>
 <Assessoria/>
 <Participacao/>
-{/* <Circuito/>
-<TresAnos/>
+<Circuito/>
+{/* <TresAnos/>
 <Treinador/>
 <App/>
 <Parcerias/>
