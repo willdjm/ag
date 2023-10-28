@@ -22,7 +22,7 @@ export const Slider = ({ data }) => {
 <img
 src={item.src}
 alt={item.alt}
-className={slide === idx ? "w-80 h-64 md:w-[32rem] md:h-[24rem] rounded-2xl" : "hidden"}
+className={slide === idx ? "w-72 h-60 md:w-[32rem] md:h-[24rem] rounded-2xl" : "hidden"}
 />
 </picture>
         );

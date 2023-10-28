@@ -1,19 +1,19 @@
 {
   "slides": [
     {
-      "src": "/public/Rectangle51.png",
+      "src": "https://swiperjs.com/demos/images/nature-1.jpg",
       "alt": "Image 1 for carouselxxxxx"
     },
     {
-      "src": "/Rectangle38.svg",
+      "src": "https://swiperjs.com/demos/images/nature-2.jpg",
       "alt": "Image 2 for carousel"
     },
     {
-      "src": "/Rectangle38.svg",
+      "src": "https://swiperjs.com/demos/images/nature-3.jpg",
       "alt": "Image 2 for carousel"
     },
     {
-      "src": "/Rectangle38.svg",
+      "src": "https://swiperjs.com/demos/images/nature-4.jpg",
       "alt": "Image 3 for carousel"
     }
   ]

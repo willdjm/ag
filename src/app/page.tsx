@@ -26,9 +26,9 @@ export default function Home() {
 <Assessoria/>
 <Participacao/>
 <Circuito/>
-{/* <TresAnos/>
+<TresAnos/>
 <Treinador/>
-<App/>
+{/* <App/>
 <Parcerias/>
 <Contact/> */}
 
