@@ -14,22 +14,14 @@ return (
       <h2 className="text-2xl uppercase ">
         Treinador
       </h2>
-      <h2 className="text-4xl text-blue-500">
-        Jonhy Dias
-      </h2>
+      <h2 className="text-4xl text-blue-500">Jonhy Dias</h2>
       <p className="max-w-xs w-64">
         Professor de Educação Física
         Cref 14877i-G/SP
       </p>
-      <p>
-        Treinador
-      </p>
-      <p>
-        Personal trainer
-      </p>
-      <p>
-        Atleta profissional
-      </p>
+      <p>Treinador</p>
+      <p>Personal trainer</p>
+      <p>Atleta profissional</p>
       <p className="lg:max-w-sm text-left">
         Criador da Equipe Águia, cujo intuito era reunir amigos apaixonados pela corrida e proporcionar maior acessibilidade às inscrições para participação em corridas de rua.
       </p>

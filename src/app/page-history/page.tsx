@@ -8,7 +8,6 @@ import { Siga } from "../components/Siga";
 import { Valores } from "../components/Valores";
 import { Contact } from "../components/contact";
 
-
 export default function PageHistory() {
 return (
 <main>

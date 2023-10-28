@@ -2,12 +2,10 @@
 export function BannerPageHistory() {
 
 return (
-<section
-    id="about">
-
-<picture className="items-end justify-end">
-<img  src="./fora-de-foco-a-visao-inferior-dos-corredores-de-maratona-em-desfoque1.png" alt="image description"/>
-</picture>
+<section id="about">
+    <picture className="items-end justify-end">
+        <img src="./fora-de-foco-a-visao-inferior-dos-corredores-de-maratona-em-desfoque1.png" alt="image description" />
+    </picture>
 </section>
 )
 }
