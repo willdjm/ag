@@ -17,7 +17,6 @@ import { Siga } from "./components/Siga";
 import { QuerTreinar } from "./components/QuerTreinar";
 import { Sobre } from "./components/Sobre";
 
-
 export default function Home() {
   return (
     <main>
