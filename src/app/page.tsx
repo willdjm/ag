@@ -24,8 +24,8 @@ export default function Home() {
 {/* <About/> */}
 <Caroucel/>
 <Assessoria/>
-{/* <Participacao/>
-<Circuito/>
+<Participacao/>
+{/* <Circuito/>
 <TresAnos/>
 <Treinador/>
 <App/>
