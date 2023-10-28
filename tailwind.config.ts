@@ -13,6 +13,7 @@ const config: Config = {
           "500": "#3C6FA5",
           "400": "#22B3FF",
           "600": "#2B71B9",
+          "700": "#0085FF",
           "900": "#293462"
         },
         "green": {
@@ -29,6 +30,10 @@ const config: Config = {
         },
         "purple": {
           "500": "#8033B0"
+        },
+        "linearGradiente": {
+          "500": "#F9B54A",
+          "600": "#F95F57"
         }
       },
       backgroundImage: {

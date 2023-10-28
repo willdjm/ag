@@ -13,6 +13,9 @@ import { Contact } from "./components/contact";
 import { Circuito } from "./components/Circuito/Circuito";
 import { Caroucel } from "./components/Caroucel/Caroucel";
 import { Video } from "./components/Video";
+import { Siga } from "./components/Siga";
+import { QuerTreinar } from "./components/QuerTreinar";
+import { Sobre } from "./components/Sobre";
 
 
 export default function Home() {
@@ -30,6 +33,9 @@ export default function Home() {
 <Circuito/>
 <TresAnos/>
 <Treinador/>
+<Sobre/>
+{/* <QuerTreinar/> */}
+<Siga/>
 <App/>
 <Parcerias/>
 <Contact/>
