@@ -6,7 +6,7 @@ export function Siga() {
 return (
 
 <section className="text-white lg:h-[45rem] flex items-end">
-<div id="sobre" className="max-w-6xl mx-auto px-8 lg:px-5 py-5 lg:py-20">
+<div id="" className="max-w-6xl mx-auto px-8 lg:px-5 py-5 lg:py-20">
   <div className="">
     <div className="grid overflow-hidden md:items-end items-center justify-items-center justify-center gap-5">
       <div className="flex flex-col items-center lg:justify-center lg:items-center lg:gap-10 gap-5 w-full lg:mb-0 lg:w-full max-w-4xl px-6 pt-10">

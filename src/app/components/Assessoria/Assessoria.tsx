@@ -4,7 +4,7 @@ export function Assessoria() {
 
 return (
 
-<section id="Contact" className="flex justify-center flex-col lg:h-screen items-center">
+<section id="" className="flex justify-center flex-col lg:h-screen items-center">
 <div className='flex flex-col justify-between justify-items-center lg:max-w-6xl w-full lg:py-16 py-10'>
 <div className="grid w-full justify-items-center justify-center items-center">
     <div className="lg:flex lg:flex-col items-center lg:justify-center lg:items-center gap-10 w-full lg:mb-0 lg:w-full lg:max-w-lg justify-center  flex ">

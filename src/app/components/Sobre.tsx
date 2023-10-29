@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 export function Sobre() {
 
 return (
 
-<section id="Contact" className="flex justify-start lg:h-screen flex-col items-center bg-cover bg-center bg-[url('/Rectangle46.png')]">
+<section id="About" className="flex justify-start lg:h-screen flex-col items-center bg-cover bg-center bg-[url('/Rectangle46.png')]">
 <div className='flex flex-col justify-start items-center gap-10 lg:max-w-6xl w-full lg:py-16 py-10 px-5'>
 
   <picture>
@@ -26,9 +28,13 @@ return (
       Desenvolvimento Contínuo
     </span>
   </div>
+
+  <Link href="/page-history" rel="noreferrer">
+    
   <button className="border border-white text-white font-bold py-1.5 px-5 rounded-full text-xs">
     Saiba mais
   </button>
+    </Link>
   <div className="bg-blue-600 grid justify-items-center w-full max-w-4xl items-center justify-center md:p-20 p-5 md:gap-10 gap-7">
     <h3 className="text-white md:text-3xl text-xl max-w-sm text-center">Quer treinar com a
       Águia Assessoria Esportiva?</h3>
@@ -40,6 +46,7 @@ return (
       Contate-nos agora
       </p>
     </button>
+
   </div>
 </div>
 </section>

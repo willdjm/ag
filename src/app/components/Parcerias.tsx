@@ -3,7 +3,7 @@ export function Parcerias() {
 return (
 
 <section className="">
-<div id="sobre" className="max-w-6xl mx-auto py-16 px-4 lg:py-20 lg:px-5">
+<div id="" className="max-w-6xl mx-auto py-16 px-4 lg:py-20 lg:px-5">
     <div className="grid items-center justify-center gap-10">
         <h2 className="md:text-4xl text-3xl text-center text-blue-500 font-medium">
             Parcerias, apoios e patrocínios

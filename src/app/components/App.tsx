@@ -3,7 +3,7 @@ export function App() {
 return (
 
 <section className="bg-[url('/Rectangle51.png')] bg-no-repeat bg-cover text-white ">
-<div id="sobre" className="max-w-6xl mx-auto px-8 lg:px-5 py-10 lg:py-10">
+<div id="" className="max-w-6xl mx-auto px-8 lg:px-5 py-10 lg:py-10">
   <div className="">
     <div className="grid md:flex overflow-hidden md:items-start items-center justify-items-center justify-center md:gap-20">
       <h2 className="text-xl md:hidden font-medium">

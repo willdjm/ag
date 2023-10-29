@@ -3,7 +3,7 @@ export function Treinador() {
 return (
 
 <section className="">
-<div id="sobre" className="max-w-full lg:h-screen mx-auto flex ">
+<div id="" className="max-w-full lg:h-screen mx-auto flex ">
   <div className="lg:flex grid ">
     <div className="lg:w-1/3 lg:h-screen lg:flex">
       <picture>

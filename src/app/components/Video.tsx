@@ -2,7 +2,7 @@ export function Video() {
 
 return (
 
-<section id="Contact" className="flex justify-center flex-col lg:h-screen items-center bg-[url('/Rectangle49.png')]">
+<section id="WhatWeDo" className="flex justify-center flex-col lg:h-screen items-center bg-[url('/Rectangle49.png')]">
 <div className='flex flex-col justify-between justify-items-center lg:max-w-6xl w-full pb-5'>
     <div className="flex items-center justify-center">
         <h3 className="lg:text-2xl text-xl text-white text-center max-w-md py-10 px-4">A Águia Assessoria Esportiva oferece suporte total ao aluno</h3>

@@ -51,19 +51,19 @@ export function NavBar() {
               <div id='home' className="h-screen md:h-auto md:items-end items-center justify-center md:grid gap-5">
                 <ul className='md:flex md:items-center md:justify-end gap-10'>
                 <li className="text-base text-white py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-2 md:border-opacity-0 border-white md:hover:bg-transparent">
-                <Link className='cursor-pointer' to="home" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>Home</Link>
+                <Link className='cursor-pointer' to="Home" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>Home</Link>
                 </li>
                 <li className="text-base  text-white py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-2 md:border-opacity-0 border-white md:hover:bg-transparent">
-                <Link className='cursor-pointer' to="sobre" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>O que fazemos</Link>
+                <Link className='cursor-pointer' to="WhatWeDo" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>O que fazemos</Link>
                 </li>
                 <li className="text-base  text-white py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-2 md:border-opacity-0 border-white md:hover:bg-transparent">
-                <Link className='cursor-pointer' to="serviços" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>Contato</Link>
+                <Link className='cursor-pointer' to="Contact" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>Contato</Link>
                 </li>
                 <li className="text-base  text-white py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-2 md:border-opacity-0 border-white md:hover:bg-transparent">
-                <Link className='cursor-pointer' to="contato" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>Quem somos</Link>
+                <Link className='cursor-pointer' to="About" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>Quem somos</Link>
                 </li>
                 <li className="text-base  text-white py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-2 md:border-opacity-0 border-white md:hover:bg-transparent">
-                <Link className='cursor-pointer' to="contato" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>Área do Cliente</Link>
+                <Link className='cursor-pointer' to="ClientArea" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>Área do Cliente</Link>
                 </li>
                 </ul>
               </div>
