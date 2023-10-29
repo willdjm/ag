@@ -1,4 +1,5 @@
-import Link from "next/link";
+import Linkk from "next/link";
+import { Link } from 'react-scroll';
 
 export function Sobre() {
 
@@ -28,13 +29,11 @@ return (
       Desenvolvimento Contínuo
     </span>
   </div>
-
-  <Link href="/page-history" rel="noreferrer">
-    
+  <Linkk href="/page-history" rel="noreferrer">
   <button className="border border-white text-white font-bold py-1.5 px-5 rounded-full text-xs">
     Saiba mais
   </button>
-    </Link>
+    </Linkk>
   <div className="bg-blue-600 grid justify-items-center w-full max-w-4xl items-center justify-center md:p-20 p-5 md:gap-10 gap-7">
     <h3 className="text-white md:text-3xl text-xl max-w-sm text-center">Quer treinar com a
       Águia Assessoria Esportiva?</h3>
@@ -42,11 +41,9 @@ return (
       <span className="text-center text-sm text-white max-w-lg hidden lg:grid">Nossos treinadores irmão te preparar, entre em contato.</span> </p>
     <p className="text-center text-sm text-white max-w-lg flex lg:hidden">Somos especialistas em corrida de rua. Nossos treinadores irmão te preparar, entre em contato.</p>
     <button className="bg-white text-blue-600 font-bold py-1.5 px-5 rounded-full text-xs">
-      <p>
-      Contate-nos agora
-      </p>
+    <Link className='cursor-pointer' to="Contact" spy={true} smooth={true} offset={-100} duration={500} delay={100}>Contate-nos agora
+    </Link>
     </button>
-
   </div>
 </div>
 </section>

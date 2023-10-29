@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Linkk from 'next/link';
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 
@@ -11,11 +12,11 @@ export function NavBar() {
           <div>
             <div className="flex items-center justify-between py-3 md:block">
               {/* LOGO */}
-                <Link className='cursor-pointer px-4' to="/" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>
+                <Linkk className='cursor-pointer px-4' href="/" onClick={() => setNavbar(!navbar)}>
                   <picture>
                     <img src="./logo.svg" alt="" className='md:h-24 h-16'/>
                   </picture>
-                </Link>
+                </Linkk>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden px-4">
                 <button
@@ -46,7 +47,7 @@ export function NavBar() {
               <div id='home' className="h-screen md:h-auto md:items-end items-center justify-center md:grid gap-5">
                 <ul className='md:flex md:items-center md:justify-end gap-10'>
                 <li className="text-base text-white py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-2 md:border-opacity-0 border-white md:hover:bg-transparent">
-                <Link className='cursor-pointer' to="Home" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>Home</Link>
+                <Linkk className='cursor-pointer' href="/" onClick={() => setNavbar(!navbar)}>Home</Linkk>
                 </li>
                 <li className="text-base  text-white py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-2 md:border-opacity-0 border-white md:hover:bg-transparent">
                 <Link className='cursor-pointer' to="WhatWeDo" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>O que fazemos</Link>

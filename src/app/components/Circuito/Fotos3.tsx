@@ -8,27 +8,28 @@ export function Fotos3() {
 
 return (
 
-<section className="py-20">
-<div className="grid max-w-xl ">
+<section className="py-5 md:py-10">
+<div className="grid max-w-2xl">
     <div className="rounded-lg overflow-hidden">
         <Swiper
             navigation={true}
             modules={[Navigation]}
             loop={true}
+            
         >
             <SwiperSlide>
-                <picture>
-                    <img id="6" src="https://swiperjs.com/demos/images/nature-1.jpg" alt="slider" />
+                <picture className='grid items-center justify-center'>
+                    <img id="6" src="/Rectangle4.png" alt="slider" className='rounded-xl' />
                 </picture>
             </SwiperSlide>
             <SwiperSlide>
                 <picture>
-                    <img id="6" src="https://swiperjs.com/demos/images/nature-2.jpg" alt="slider" />
+                    <img id="6" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="slider" />
                 </picture>
             </SwiperSlide>
             <SwiperSlide>
                 <picture>
-                    <img id="6" src="https://swiperjs.com/demos/images/nature-3.jpg" alt="slider" />
+                    <img id="6" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="slider" />
                 </picture>
             </SwiperSlide>
             <SwiperSlide>
