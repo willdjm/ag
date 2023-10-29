@@ -1,39 +1,97 @@
-import { slides } from "../Circuito/data/carouselData.json";
-import { Slider } from './Slider';
+import React from "react";
+import { Slide2 } from "./Slide2";
+export const Circuito = () => {
 
-export function Circuito() {
-
+const [openTab, setOpenTab] = React.useState(1);
 return (
-
-<section id="Contact" className="flex justify-center flex-col lg:h-screen items-center">
+<>
+<section id="Contact" className="flex justify-center flex-col  items-center">
 <div className='flex flex-col justify-between justify-items-center lg:max-w-6xl w-full lg:py-16 py-5'>
 <div className="grid w-full justify-items-center justify-center items-center">
-    <div className="flex flex-col items-center lg:justify-center lg:items-center gap-10 w-full lg:mb-0 lg:w-full max-w-3xl px-6">
-        <h3 className="lg:text-3xl text-2xl text-blue-500 text-center">Circuito próprio de provas e desafios</h3>
-        <p className="text-center lg:text-center mb-5">Veja algumas das provas e desafios promovidos pela Águia Assessoria Esportiva:</p>
-    </div>
-    <div className="grid md:flex lg:justify-center lg:items-center lg:gap-10 gap-5 px-8">
-        <button className="flex max-w-lg p-5 px-16 py-6 items-center justify-center bg-blue-400 shadow-md w-full">
-            <picture>
-                <img src="./imagem1.svg" alt="" />
-            </picture>
-        </button>
-        <button className="flex max-w-lg  py-2.5 p-3 px-16 items-center justify-center bg-blue-400 shadow-md w-full">
-            <picture>
-                <img src="./logo-desafio-aguia-run1.svg" alt="" className="h-24" />
-            </picture>
-        </button>
-        <button className="flex max-w-lg p-5 px-16 py-6 items-center justify-center bg-blue-400 shadow-md w-full">
-            <picture>
-                <img src="./desafio-20231.svg" alt="" />
-            </picture>
-        </button>
-    </div>
-    <div className='w-full flex items-center justify-center py-10'>
-        <Slider data={slides} />
-    </div>
+<div className="flex flex-col items-center lg:justify-center lg:items-center gap-10 w-full lg:mb-0 lg:w-full max-w-3xl px-6">
+<h3 className="lg:text-3xl text-2xl text-blue-500 text-center">Circuito próprio de provas e desafios</h3>
+<p className="text-center lg:text-center mb-5">Veja algumas das provas e desafios promovidos pela Águia Assessoria Esportiva:</p>
+</div>
+<div className="grid md:flex lg:justify-center lg:items-center lg:gap-10 gap-5 px-8">
+<button>
+<a
+className={
+"flex max-w-xs w-64 h-24 py-2  items-center justify-center bg-blue-400 shadow-md" +
+(openTab === 1
+? ""
+: "")
+}
+onClick={e => {
+e.preventDefault();
+setOpenTab(1);
+}}
+data-toggle="tab"
+href="#link1"
+role="tablist"
+>
+<picture>
+<img src="./imagem1.svg" alt="" className="h-20"/>  
+</picture>
+</a>  
+</button>
+<button>
+<a
+className={
+"flex max-w-xs w-64 h-24 py-2  items-center justify-center bg-blue-400 shadow-md" +
+(openTab === 2
+? ""
+: "")
+}
+onClick={e => {
+e.preventDefault();
+setOpenTab(2);
+}}
+data-toggle="tab"
+href="#link2"
+role="tablist"
+>
+<picture>
+<img src="./logo-desafio-aguia-run1.svg" alt="" className="h-20" />
+</picture>
+</a>
+</button>
+
+<button>
+<a
+className={
+"flex max-w-xs w-64 h-24 py-3  items-center justify-center bg-blue-400 shadow-md" +
+(openTab === 3
+? ""
+: "")
+}
+onClick={e => {
+e.preventDefault();
+setOpenTab(3);
+}}
+data-toggle="tab"
+href="#link3"
+role="tablist"
+>
+<picture>
+<img src="./desafio-20231.svg" alt="" className="h-20"/>
+</picture>
+</a>
+</button>
+</div>
+<div className="relative flex flex-col w-full items-center justify-center">
+<div className={openTab === 1 ? "block" : "hidden"} id="link1">
+<Slide2/>
+</div>
+<div className={openTab === 2 ? "block" : "hidden"} id="link2">
+<Slide2/>
+</div>
+<div className={openTab === 3 ? "block" : "hidden"} id="link3">
+<Slide2/>
+</div>
+</div>
 </div>
 </div>
 </section>
+</>
 );
-}
+};
