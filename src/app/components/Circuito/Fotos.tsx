@@ -15,6 +15,7 @@ return (
             navigation={true}
             modules={[Navigation]}
             loop={true}
+            grabCursor={true}
             
         >
             <SwiperSlide>

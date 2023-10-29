@@ -14,8 +14,9 @@ import { Caroucel } from "./components/Caroucel";
 import { Video } from "./components/Video";
 import { Siga } from "./components/Siga";
 import { Sobre } from "./components/Sobre";
+import { Whatsapp } from "./components/Whatsapp";
+import { Footer } from "./components/Footer";
 import { ScrollToTopp } from "./components/ScrollToTopp";
-import { Whatsapp } from "./Whatsapp";
 
 export default function Home() {
 
@@ -23,6 +24,7 @@ return (
 
 <main>
   <NavBar />
+  <Footer/>
   <Banner />
   <Caroucel />
   <Assessoria />
@@ -37,7 +39,16 @@ return (
   <Parcerias />
   <Contact />
   <Whatsapp />
-    <ScrollToTopp />
+  <ScrollToTopp/>
 </main>
 )
 }
+
+
+
+
+
+
+
+
+

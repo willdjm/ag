@@ -26,70 +26,73 @@ return (
 <p className="text-center lg:text-center mb-5">Veja algumas das provas e desafios promovidos pela Águia Assessoria Esportiva:</p>
 </div>
 <div className="grid md:flex lg:justify-center lg:items-center lg:gap-10 gap-5 px-8">
+
 <button>
-<a
-className={
-"flex max-w-xs w-64 h-24 py-2  items-center justify-center bg-blue-400 shadow-md" +
-(openTab === 1
-? ""
-: "")
-}
-onClick={e => {
-e.preventDefault();
-setOpenTab(1);
-}}
-data-toggle="tab"
-href="#link1"
-role="tablist"
->
+            <a
+              className={
+                "flex lg:max-w-lg lg:p-5 lg:px-5 lg:py-4 py-3 px-2 w-64 h-24 items-center justify-center bg-blue-400 shadow-md" +
+                (openTab === 1
+                  ? "text-white bg-blueGray-600"
+                  : "text-blue-400 bg-blue-400")
+              }
+              onClick={e => {
+                e.preventDefault();
+                setOpenTab(1);
+              }}
+              data-toggle="tab"
+              href="#link1"
+              role="tablist"
+            >
 <picture>
 <img src="./imagem1.svg" alt="" className="h-20"/>  
 </picture>
-</a>  
-</button>
-<button>
-<a
-className={
-"flex max-w-xs w-64 h-24 py-2  items-center justify-center bg-blue-400 shadow-md" +
-(openTab === 2
-? ""
-: "")
-}
-onClick={e => {
-e.preventDefault();
-setOpenTab(2);
-}}
-data-toggle="tab"
-href="#link2"
-role="tablist"
->
-<picture>
-<img src="./logo-desafio-aguia-run1.svg" alt="" className="h-20" />
-</picture>
-</a>
+            </a>
 </button>
 
 <button>
-<a
-className={
-"flex max-w-xs w-64 h-24 py-3  items-center justify-center bg-blue-400 shadow-md" +
-(openTab === 3
-? ""
-: "")
-}
-onClick={e => {
-e.preventDefault();
-setOpenTab(3);
-}}
-data-toggle="tab"
-href="#link3"
-role="tablist"
->
+            <a
+              className={
+                "flex lg:max-w-lg lg:p-5 lg:px-5 lg:py-4 py-3 px-2 w-64 h-24 items-center justify-center bg-blue-400 shadow-md" +
+                (openTab === 2
+                  ? "text-white bg-blueGray-600"
+                  : "text-blue-400 bg-blue-400")
+              }
+              onClick={e => {
+                e.preventDefault();
+                setOpenTab(2);
+              }}
+              data-toggle="tab"
+              href="#link2"
+              role="tablist"
+            >
 <picture>
-<img src="./desafio-20231.svg" alt="" className="h-20"/>
+<img src="./logo-desafio-aguia-run1.svg" alt="" className="h-20" />
 </picture>
-</a>
+            </a>
 </button>
+
+<button>
+            <a
+              className={
+                "flex lg:max-w-lg lg:p-5 lg:px-5 lg:py-4 py-3 px-2 w-64 h-24 items-center justify-center bg-blue-400 shadow-md" +
+                (openTab === 3
+                  ? "text-white bg-blueGray-600"
+                  : "text-blue-400 bg-blue-400")
+              }
+              onClick={e => {
+                e.preventDefault();
+                setOpenTab(3);
+              }}
+              data-toggle="tab"
+              href="#link3"
+              role="tablist"
+            >
+<picture>
+<img src="./logo-desafio-aguia-run1.svg" alt="" className="h-20" />
+</picture>
+            </a>
+</button>
+
 </div>
 <div className="relative flex flex-col w-full items-center justify-center">
 <div className={openTab === 1 ? "block" : "hidden"} id="link1">

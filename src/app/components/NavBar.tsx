@@ -6,8 +6,8 @@ import { Link } from 'react-scroll';
 export function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
-    <div id='home'>
-      <nav className="w-full fixed top-0 left-0 right-0 z-10">
+    <div id='Top'>
+      <nav className="w-full fixed -top-0 left-0 right-0 z-10 ">
         <div className="justify-between mx-auto lg:max-w-6xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:block">

@@ -1,6 +1,6 @@
 "use client";
 
-import { Whatsapp } from "../Whatsapp";
+import { Whatsapp } from "../components/Whatsapp";
 import { BannerPageHistory } from "../components/BannerPageHistory";
 import { History } from "../components/History";
 import { Missao } from "../components/Missao";

@@ -15,7 +15,7 @@ return (
             navigation={true}
             modules={[Navigation]}
             loop={true}
-            
+            grabCursor={true}
         >
             <SwiperSlide>
                 <picture className='grid items-center justify-center'>

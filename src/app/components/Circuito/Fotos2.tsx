@@ -15,11 +15,12 @@ return (
             navigation={true}
             modules={[Navigation]}
             loop={true}
+            grabCursor={true}
             
         >
             <SwiperSlide>
                 <picture className='grid items-center justify-center'>
-                    <img id="6" src="/Rectangle38.svg" alt="slider" className='rounded-xl' />
+                    <img id="6" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="slider" className='rounded-xl' />
                 </picture>
             </SwiperSlide>
             <SwiperSlide>
