@@ -1,7 +1,18 @@
 import React from "react";
-import { Slide2 } from "./Slide2";
-import { Slide3 } from "./Slide3";
-import { Slide } from "./Slide";
+import { Fotos } from "./Fotos";
+
+
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import './styles.css'
+import { Navigation } from 'swiper/modules';
+import { Fotos2 } from "./Fotos2";
+import { Fotos3 } from "./Fotos3";
+
+
+
 export const Circuito = () => {
 
 const [openTab, setOpenTab] = React.useState(1);
@@ -82,13 +93,14 @@ role="tablist"
 </div>
 <div className="relative flex flex-col w-full items-center justify-center">
 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-<Slide/>
+<Fotos2/>
 </div>
 <div className={openTab === 2 ? "block" : "hidden"} id="link2">
-<Slide3/>
+
+<Fotos/>
 </div>
 <div className={openTab === 3 ? "block" : "hidden"} id="link3">
-<Slide2/>
+<Fotos3/>
 </div>
 </div>
 </div>

@@ -1,0 +1,36 @@
+.swiper-button-prev {
+
+  color: #fff;
+  border-radius: 20%;
+  background: #10b981;
+  width: 55px;
+    height: 55px;
+     opacity: 0.7;
+
+
+}
+
+.swiper-button-next{
+
+    color: #fff;
+  border-radius: 20%;
+  background: #10b981;
+  width: 55px;
+    height: 55px;
+     opacity: 0.7;
+     left: 270px;
+}
+
+@media (min-width: 600px) {
+  .swiper-button-next{
+    left: 510px;
+
+  }
+}
+
+.swiper-pagination-bullet{
+    color: #fff;
+  background: #10b981;
+
+}
+
