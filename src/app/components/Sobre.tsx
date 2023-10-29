@@ -5,7 +5,7 @@ export function Sobre() {
 return (
 
 <section id="About" className="flex justify-start lg:h-screen flex-col items-center bg-cover bg-center bg-[url('/Rectangle46.png')]">
-<div className='flex flex-col justify-start items-center gap-10 lg:max-w-6xl w-full lg:py-16 py-10 px-5'>
+<div id="#About" className='flex flex-col justify-start items-center gap-10 lg:max-w-6xl w-full lg:py-16 py-10 px-5'>
 
   <picture>
     <img src="./logo.svg" alt="" />
