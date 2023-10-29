@@ -21,7 +21,7 @@ return (
     <div className="flex flex-col items-center lg:justify-center lg:items-center gap-10 w-full lg:mb-0 lg:w-full max-w-4xl px-6 py-5">
         <p className=" max-w-xl text-sm text-center pt-5">A Águia Assessoria Esportiva atende a cada um de seus alunos de maneira única e individualizada, a fim de proporcionar, de fato, maior qualidade de vida e aumento no nível de performance esportiva.</p>
     </div>
-    <div className='w-full items-center justify-center justify-items-center grid grid-cols-2 md:grid-cols-4 lg:gap-4 gap-1 px-3  pt-8'>
+    <div className='w-full items-center justify-center justify-items-center grid grid-cols-2 md:grid-cols-4 lg:gap-2 gap-2 px-3  pt-8'>
         <div className="flip-card bg-transparent lg:w-52 lg:h-52 w-36 h-36">
             <div className="flip-card-inner duration-700 relative w-full h-full text-center">
                 <div className="flip-card-front bg-blue-600 text-white flex flex-col items-center justify-center absolute w-full h-full">

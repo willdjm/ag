@@ -5,10 +5,10 @@ import { BannerPageHistory } from "../components/BannerPageHistory";
 import { History } from "../components/History";
 import { Missao } from "../components/Missao";
 import { NavBarPageHistory } from "../components/NavBarPageHistory";
-import { ScrollToTopp } from "../components/ScrollToTopp";
-import { Siga } from "../components/Siga";
 import { Valores } from "../components/Valores";
 import { Contact } from "../components/contact";
+import { SigaPageHistory } from "../components/SigaPageHistory";
+import { ScrollToTopPageHistory } from "../components/ScrollToTopPageHistory";
 
 export default function PageHistory() {
 return (
@@ -18,10 +18,10 @@ return (
   <History />
   <Missao />
   <Valores />
-  <Siga />
+  <SigaPageHistory />
   <Contact />
   <Whatsapp />
-    <ScrollToTopp />
+    <ScrollToTopPageHistory />
 </main>
 )
 }

@@ -4,7 +4,7 @@ return (
 
 <section className="">
 <div id="" className="max-w-full lg:h-screen mx-auto flex ">
-  <div className="lg:flex grid ">
+  <div className="md:flex grid ">
     <div className="lg:w-1/3 lg:h-screen lg:flex">
       <picture>
         <img src="./Rectangle40.svg" alt="" className="object-cover w-full h-full" />

@@ -16,14 +16,14 @@ import { Siga } from "./components/Siga";
 import { Sobre } from "./components/Sobre";
 import { Whatsapp } from "./components/Whatsapp";
 import { Footer } from "./components/Footer";
-import { ScrollToTopp } from "./components/ScrollToTopp";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 export default function Home() {
 
 return (
 
 <main>
-  <NavBar />
+  {/* <NavBar /> */}
   <Footer/>
   <Banner />
   <Caroucel />
@@ -39,7 +39,7 @@ return (
   <Parcerias />
   <Contact />
   <Whatsapp />
-  <ScrollToTopp/>
+  <ScrollToTop/>
 </main>
 )
 }

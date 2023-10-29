@@ -43,73 +43,73 @@ return (
   >
     <SwiperSlide key='1'>
       <picture>
-        <img src="./Rectangle44.svg" alt="" className="object-cover w-full h-full" />
+        <img src="./Rectangle6.svg" alt="" className="object-cover w-full h-full" />
 
       </picture>
     </SwiperSlide>
     <SwiperSlide key='2'>
       <picture>
-        <img src="./Rectangle44.svg" alt="" className="object-cover w-full h-full" />
+        <img src="./Rectangle5.svg" alt="" className="object-cover w-full h-full" />
 
       </picture>
     </SwiperSlide>
     <SwiperSlide key='3'>
       <picture>
-        <img src="./Rectangle44.svg" alt="" className="object-cover w-full h-full" />
+        <img src="./Rectangle4.svg" alt="" className="object-cover w-full h-full" />
 
       </picture>
     </SwiperSlide>
     <SwiperSlide key='4'>
       <picture>
-        <img src="./Rectangle44.svg" alt="" className="object-cover w-full h-full" />
+        <img src="./Rectangle3.svg" alt="" className="object-cover w-full h-full" />
 
       </picture>
     </SwiperSlide>
     <SwiperSlide key='5'>
       <picture>
-        <img src="./Rectangle44.svg" alt="" className="object-cover w-full h-full" />
+        <img src="./Rectangle2.svg" alt="" className="object-cover w-full h-full" />
 
       </picture>
     </SwiperSlide>
     <SwiperSlide key='6'>
       <picture>
-        <img src="./Rectangle44.svg" alt="" className="object-cover w-full h-full" />
+        <img src="./Rectangle6.svg" alt="" className="object-cover w-full h-full" />
 
       </picture>
     </SwiperSlide>
     <SwiperSlide key='7'>
       <picture>
-        <img src="./Rectangle44.svg" alt="" className="object-cover w-full h-full" />
+        <img src="./Rectangle5.svg" alt="" className="object-cover w-full h-full" />
 
       </picture>
     </SwiperSlide>
     <SwiperSlide key='8'>
       <picture>
-        <img src="./Rectangle44.svg" alt="" className="object-cover w-full h-full" />
+        <img src="./Rectangle4.svg" alt="" className="object-cover w-full h-full" />
 
       </picture>
     </SwiperSlide>
     <SwiperSlide key='9'>
       <picture>
-        <img src="./Rectangle44.svg" alt="" className="object-cover w-full h-full" />
+        <img src="./Rectangle3.svg" alt="" className="object-cover w-full h-full" />
 
       </picture>
     </SwiperSlide>
     <SwiperSlide key='10'>
       <picture>
-        <img src="./Rectangle44.svg" alt="" className="object-cover w-full h-full" />
+        <img src="./Rectangle6.svg" alt="" className="object-cover w-full h-full" />
 
       </picture>
     </SwiperSlide>
     <SwiperSlide key='11'>
       <picture>
-        <img src="./Rectangle44.svg" alt="" className="object-cover w-full h-full" />
+        <img src="./Rectangle5.svg" alt="" className="object-cover w-full h-full" />
 
       </picture>
     </SwiperSlide>
     <SwiperSlide key='12'>
       <picture>
-        <img src="./Rectangle44.svg" alt="" className="object-cover w-full h-full" />
+        <img src="./Rectangle4.svg" alt="" className="object-cover w-full h-full" />
       </picture>
     </SwiperSlide>
   </Swiper>
