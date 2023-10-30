@@ -1,7 +1,7 @@
 import { FaFacebook } from "react-icons/fa";
 import { AiOutlineInstagram } from 'react-icons/ai';
 
-export function SigaPageHistory() {
+export function PageHistoryFollow() {
 
 return (
 
