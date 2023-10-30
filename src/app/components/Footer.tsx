@@ -26,10 +26,10 @@ export function Footer() {
 </figcaption>
     </figure>
     </footer>
-        <footer
-        className="md:hidden " >
+        <footer>
           <picture >
-          <img src="./barraMobile.png" alt="image description" className="max-w-full w-screen"/>
+          <img src="./barraMobile.png" alt="image description" className="max-w-full w-screen md:hidden lg:hidden flex"/>
+          <img src="./barraIpad.png" alt="image description" className="max-w-full w-screen md:flex lg:hidden sm:hidden hidden"/>
       </picture>
       </footer>
       </>

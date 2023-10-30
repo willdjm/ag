@@ -25,7 +25,7 @@ return (
 <h3 className="lg:text-3xl text-2xl text-blue-500 text-center">Circuito próprio de provas e desafios</h3>
 <p className="text-center lg:text-center mb-5">Veja algumas das provas e desafios promovidos pela Águia Assessoria Esportiva:</p>
 </div>
-<div className="grid md:flex lg:justify-center lg:items-center lg:gap-10 gap-5 px-8">
+<div className="grid md:flex lg:justify-center lg:items-center lg:gap-10 gap-5 lg:x-8">
 
 <button>
             <a
