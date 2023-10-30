@@ -170,7 +170,6 @@ return (
             </a>
           </button>
 
-
           <button>
             <a
               className={
@@ -192,7 +191,6 @@ return (
               </picture>
             </a>
           </button>
-
 
         </div>
         <div className="relative flex flex-col w-full items-center justify-center">

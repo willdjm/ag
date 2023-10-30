@@ -1,35 +1,27 @@
 .swiper-button-prev {
-
   color: #fff;
   border-radius: 20%;
   background: #2B71B9;
   width: 55px;
-    height: 55px;
-     opacity: 0.9;
-     
-
+  height: 55px;
+  opacity: 0.9;
 }
-
 .swiper-button-next{
-    color: #fff;
+  color: #fff;
   border-radius: 20%;
   background: #2B71B9;
   width: 55px;
-    height: 55px;
-     opacity: 0.9;
-     left: 300px;
+  height: 55px;
+  opacity: 0.9;
+  left: 300px;
 }
 
 @media (min-width: 600px) {
   .swiper-button-next{
-    left: 612px;
-
-  }
+     left: 612px;
 }
-
+}
 .swiper-pagination-bullet{
     color: #fff;
-  background: #10b981;
-
+    background: #10b981;
 }
-

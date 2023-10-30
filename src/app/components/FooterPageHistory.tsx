@@ -1,8 +1,8 @@
-import { useState } from 'react';
-
 export function FooterPageHistory() {
+
   return (
-    <>
+  
+  <>
     <footer
       className="md:fixed hidden lg:w-screen md:z-50 md:bottom-0 lg:flex md:items-center md:justify-center" >
         <figure className='flex items-center justify-center justify-items-center'>

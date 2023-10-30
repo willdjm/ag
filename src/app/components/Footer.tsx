@@ -1,7 +1,5 @@
-import { useState } from 'react';
-
 export function Footer() {
-  const [navbar, setNavbar] = useState(false);
+
   return (
     <>
     <footer

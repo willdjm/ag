@@ -22,7 +22,6 @@ export default function Home() {
 return (
 
 <main>
-
   <Banner />
   <Section1Carousel />
   <Section2Assessoria />
