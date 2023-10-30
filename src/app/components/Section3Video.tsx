@@ -1,4 +1,4 @@
-export function Video() {
+export function Section3Video() {
 
 return (
 
