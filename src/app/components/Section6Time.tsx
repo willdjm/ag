@@ -1,4 +1,4 @@
-export function TresAnos() {
+export function Section6Time() {
 
 return (
 

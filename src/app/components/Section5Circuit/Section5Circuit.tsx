@@ -8,7 +8,7 @@ import './styles.css'
 import { Fotos2 } from "./Fotos2";
 import { Fotos3 } from "./Fotos3";
 
-export const Circuito = () => {
+export const Section5Circuit = () => {
 
 const [openTab, setOpenTab] = React.useState(1);
 return (
@@ -83,7 +83,7 @@ return (
               role="tablist"
             >
 <picture>
-<img src="./logo-desafio-aguia-run1.svg" alt="" className="h-20" />
+<img src="./desafio-20231.svg" alt="" className="h-20" />
 </picture>
             </a>
 </button>
