@@ -21,7 +21,7 @@ return (
   <Contact />
   <FooterPageHistory/>
   <Whatsapp />
-  <ScrollToTopPageHistory />
+  {/* <ScrollToTopPageHistory /> */}
 </main>
 )
 }

@@ -14,7 +14,7 @@ return (
   <p className="text-center lg:text-base max-w-3xl text-white text-sm">
     Com o aumento exponencial de pessoas interessadas em melhorar sua qualidade de vida através da corrida de rua e dos treinamentos funcionais, nos últimos anos também cresceu a demanda de atletas amadores por profissionais qualificados nessa área, assim a experiência e os resultados obtidos na Equipe demonstraram sua capacidade de expansão para o atendimento deste público, nascendo assim a Águia Assessoria Esportiva.
   </p>
-  <div className="grid md:flex lg:gap-20 gap-3 grid-cols-2">
+  <div className="grid md:flex lg:gap-20 gap-3 grid-cols-2 lg:py-10 py-5">
     <span className="flex p-5 md:p-10 text-center items-center justify-center md:w-40 w-36 md:h-40 h-36 border border-white text-white text-xs rounded-full">
       Qualidade dos serviços
     </span>
@@ -28,11 +28,7 @@ return (
       Desenvolvimento Contínuo
     </span>
   </div>
-  <Linkk href="/page-history" rel="noreferrer">
-  <button className="border border-white text-white font-bold py-1.5 px-5 rounded-full text-xs">
-    Saiba mais
-  </button>
-    </Linkk>
+
   <div className="bg-blue-600 grid justify-items-center w-full max-w-4xl items-center justify-center md:p-20 p-5 md:gap-10 gap-7">
     <h3 className="text-white md:text-3xl text-xl max-w-sm text-center">Quer treinar com a
       Águia Assessoria Esportiva?</h3>

@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/Section5Circuit/Slider.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/Section5Circuit/Slider.jsx", "src/app/components/Section5Circuit/particles-js.js", "src/app/components/Section5Circuit/app.js"],
   "exclude": ["node_modules"]
 }

@@ -50,7 +50,7 @@ export function NavBarPageHistory() {
                 <Linkk className='cursor-pointer' href="/" onClick={() => setNavbar(!navbar)}>Home</Linkk>
                 </li>
                 <li className="text-base  text-white py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-2 md:border-opacity-0 border-white md:hover:bg-transparent">
-                <Linkk className='cursor-pointer' href="/#WhatWeDo" onClick={() => setNavbar(!navbar)}>O que fazemos</Linkk>
+                <Linkk className='cursor-pointer' href="/page-history" onClick={() => setNavbar(!navbar)}>História</Linkk>
                 </li>
                 <li className="text-base  text-white py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-2 md:border-opacity-0 border-white md:hover:bg-transparent">
                 <Link className='cursor-pointer' to="Contact" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>Contato</Link>

@@ -7,7 +7,7 @@ export function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div id='Top'>
-      <nav className="w-full top-0 left-0 right-0 z-10 ">
+      <nav className="w-full fixed top-0 left-0 right-0 z-10 ">
         <div className="justify-between mx-auto lg:max-w-6xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:block">
@@ -50,7 +50,7 @@ export function NavBar() {
                 <Linkk className='cursor-pointer' href="/" onClick={() => setNavbar(!navbar)}>Home</Linkk>
                 </li>
                 <li className="text-base  text-white py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-2 md:border-opacity-0 border-white md:hover:bg-transparent">
-                <Link className='cursor-pointer' to="WhatWeDo" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>O que fazemos</Link>
+                <Linkk className='cursor-pointer' href="/page-history" onClick={() => setNavbar(!navbar)}>História</Linkk>
                 </li>
                 <li className="text-base  text-white py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-2 md:border-opacity-0 border-white md:hover:bg-transparent">
                 <Link className='cursor-pointer' to="Contact" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>Contato</Link>
