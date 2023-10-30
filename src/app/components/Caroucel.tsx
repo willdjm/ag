@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 register();
 
-export function Section1Carousel() {
+export function Caroucel() {
 
 const [slidePreview, setSlidePreview] = useState(4)
 

@@ -2,18 +2,13 @@ import React from "react";
 import { Fotos } from "./Fotos";
 
 
-
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import './styles.css'
-import { Navigation } from 'swiper/modules';
 import { Fotos2 } from "./Fotos2";
 import { Fotos3 } from "./Fotos3";
 
-
-
-export const Section5Circuit = () => {
+export const Circuito = () => {
 
 const [openTab, setOpenTab] = React.useState(1);
 return (

@@ -1,6 +1,6 @@
-import './Section2AssessoriaStyle.css';
+import './AssessoriaStyle.css';
 
-export function Section2Assessoria() {
+export function Assessoria() {
 
 return (
 

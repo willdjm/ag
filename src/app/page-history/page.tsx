@@ -2,22 +2,23 @@
 
 import { Whatsapp } from "../components/Whatsapp";
 import { BannerPageHistory } from "../components/BannerPageHistory";
+import { History } from "../components/History";
+import { Missao } from "../components/Missao";
+import { Valores } from "../components/Valores";
+import { Contact } from "../components/contact";
 import { SigaPageHistory } from "../components/SigaPageHistory";
 import { ScrollToTopPageHistory } from "../components/ScrollToTopPageHistory";
 import { FooterPageHistory } from "../components/FooterPageHistory";
-import { Section12Contact } from "../components/Section12Contact";
-import { PageHistoryMission } from "../components/PageHistoryMission";
-import { PageHistoryValues } from "../components/PageHistoryValues";
 
 export default function PageHistory() {
 return (
 <main>
   <BannerPageHistory />
-  <PageHistory />
-  <PageHistoryMission />
-  <PageHistoryValues />
+  <History />
+  <Missao />
+  <Valores />
   <SigaPageHistory />
-  <Section12Contact />
+  <Contact />
   <FooterPageHistory/>
   <Whatsapp />
     <ScrollToTopPageHistory />

@@ -1,4 +1,4 @@
-export function PageHistoryHistory() {
+export function History() {
 
 return (
 
