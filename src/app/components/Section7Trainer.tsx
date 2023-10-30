@@ -1,4 +1,4 @@
-export function Treinador() {
+export function Section7Trainer() {
 
 return (
 

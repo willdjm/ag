@@ -2,7 +2,7 @@ import React from "react";
 import { FotosCasaDoCorre } from "./FotosCasaDoCorre";
 import { FotosCircuitoDeAlimentos } from "./FotosCircuitoDeAlimentos";
 
-export const Participacao = () => {
+export const Section4Participation = () => {
 const [openTab, setOpenTab] = React.useState(1);
 return (
 <>

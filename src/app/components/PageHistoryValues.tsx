@@ -1,4 +1,4 @@
-export function Valores() {
+export function PageHistoryValues() {
 
 return (
 

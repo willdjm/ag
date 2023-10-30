@@ -1,7 +1,7 @@
 import Linkk from "next/link";
 import { Link } from 'react-scroll';
 
-export function Sobre() {
+export function Section8About() {
 
 return (
 

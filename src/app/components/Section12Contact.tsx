@@ -2,7 +2,7 @@ import * as yup from 'yup';
 import { Field, Form, Formik, } from 'formik';
 import { useState } from 'react';
 
-export function Contact() {
+export function Section12Contact() {
 
 const [failMessage, setFailMessage] = useState(false);
 const [successMessage, setSuccessMessage] = useState(false);

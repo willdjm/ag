@@ -13,7 +13,7 @@ import { Fotos3 } from "./Fotos3";
 
 
 
-export const Circuito = () => {
+export const Section5Circuit = () => {
 
 const [openTab, setOpenTab] = React.useState(1);
 return (

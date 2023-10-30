@@ -1,4 +1,4 @@
-export function Parcerias() {
+export function Section11Partnership() {
 
 return (
 

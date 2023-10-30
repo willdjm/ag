@@ -1,43 +1,41 @@
 "use client";
 
-import { TresAnos } from "./components/3anos";
-import { App } from "./components/App";
-import { Assessoria } from "./components/Assessoria";
 import { Banner } from "./components/Banner";
-import { Parcerias } from "./components/Parcerias";
-import { Participacao } from "./components/Participacao/Participacao";
-import { Treinador } from "./components/Treinador";
-import { Contact } from "./components/contact";
-import { Circuito } from "./components/Circuito/Circuito";
-import { Caroucel } from "./components/Caroucel";
-import { Video } from "./components/Video";
-import { Siga } from "./components/Siga";
-import { Sobre } from "./components/Sobre";
 import { Whatsapp } from "./components/Whatsapp";
-import { Footer } from "./components/Footer";
 import { ScrollToTop } from "./components/ScrollToTop";
+import { Section2Assessoria } from "./components/Section2Assessoria";
+import { Section1Carousel } from "./components/Section1Carousel";
+import { Section3Video } from "./components/Section3Video";
+import { Section4Participation } from "./components/Section4Participation/Section4Participation";
+import { Section5Circuit } from "./components/Section5Circuit/Section5Circuit";
+import { Section6Time } from "./components/Section6Time";
+import { Section7Trainer } from "./components/Section7Trainer";
+import { Section8About } from "./components/Section8About";
+import { Section9Follow } from "./components/Section9Follow";
+import { Section10App } from "./components/Section10App";
+import { Section11Partnership } from "./components/Section11Partnership";
+import { Section12Contact } from "./components/Section12Contact";
+import { Footer } from "./components/Footer";
 
 export default function Home() {
 
 return (
 
 <main>
-
   <Banner />
-  <Caroucel />
-  <Assessoria />
-  <Video />
-  <Participacao />
-  <Circuito />
-  <TresAnos />
-  <Treinador />
-  <Sobre />
-  <Siga />
-  <App />
-  <Parcerias />
-  <Contact />
+  <Section1Carousel />
+<Section2Assessoria/>
+  <Section3Video />
+  <Section4Participation />
+  <Section5Circuit />
+  <Section6Time />
+  <Section7Trainer />
+  <Section8About />
+  <Section9Follow />
+  <Section10App />
+  <Section11Partnership />
+  <Section12Contact />
   <Footer/>
-
   <Whatsapp />
   <ScrollToTop/>
 </main>
