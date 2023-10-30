@@ -11,10 +11,10 @@ const [successMessage, setSuccessMessage] = useState(false);
 return (
 
 <section id="Contact" className="flex justify-center flex-col items-center bg-[url('/Rectangle60.svg')]">
-<div className='flex flex-col justify-between justify-items-center lg:max-w-6xl w-full lg:py-16 py-10'>
+<div className='flex flex-col justify-between justify-items-center lg:max-w-6xl w-full lg:py-16 py-0'>
 <div className="grid w-full justify-center">
 <div className="flex flex-col items-center lg:items-center gap-10 w-full lg:mb-0 lg:w-full max-w-3xl lg:px-6">
-    <h3 className="lg:text-4xl text-3xl text-blue-500">Entre em contato</h3>
+    <h3 className="lg:text-4xl text-3xl text-blue-500 lg:mt-0 mt-10">Entre em contato</h3>
     <p className="text-center lg:text-center mb-5">
     Preencha este pequeno formulário, que nossos profissionais entrarão em contato.
     </p>

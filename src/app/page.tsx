@@ -4,7 +4,6 @@ import { TresAnos } from "./components/3anos";
 import { App } from "./components/App";
 import { Assessoria } from "./components/Assessoria";
 import { Banner } from "./components/Banner";
-import { NavBar } from "./components/NavBar";
 import { Parcerias } from "./components/Parcerias";
 import { Participacao } from "./components/Participacao/Participacao";
 import { Treinador } from "./components/Treinador";
@@ -23,8 +22,7 @@ export default function Home() {
 return (
 
 <main>
-  {/* <NavBar /> */}
-  <Footer/>
+
   <Banner />
   <Caroucel />
   <Assessoria />
@@ -38,6 +36,8 @@ return (
   <App />
   <Parcerias />
   <Contact />
+  <Footer/>
+
   <Whatsapp />
   <ScrollToTop/>
 </main>
