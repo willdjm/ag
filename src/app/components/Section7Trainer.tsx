@@ -7,7 +7,7 @@ return (
   <div className="md:flex grid ">
     <div className="lg:w-1/3 lg:h-screen lg:flex">
       <picture>
-        <img src="./Rectangle40.svg" alt="" className="object-cover w-full h-full" />
+        <img src="./treinador.png" alt="" className="object-cover w-full h-full" />
       </picture>
     </div>
     <div className="lg:w-1/3  flex-col flex items-start justify-center gap-6 lg:pl-16 p-5 py-6">

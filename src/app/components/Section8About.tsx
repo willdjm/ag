@@ -8,7 +8,7 @@ return (
 <section id="About" className="flex justify-start lg:h-screen flex-col items-center bg-cover bg-center bg-[url('/Rectangle46.png')]">
 <div id="#About" className='flex flex-col justify-start items-center gap-10 lg:max-w-6xl w-full lg:py-16 py-10 px-5'>
   <picture>
-    <img src="./logo.svg" alt="" />
+    <img src="./logo.svg" alt=""/>
   </picture>
   <h3 className="lg:text-3xl text-2xl w-64 lg:w-full text-white text-center">Sobre a Águia Assessoria Esportiva</h3>
   <p className="text-center lg:text-base max-w-3xl text-white text-sm">

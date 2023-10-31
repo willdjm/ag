@@ -12,7 +12,7 @@ return (
         <NavBarMobile />
     </div>
     <picture >
-        <img src="./banner.svg" alt="image description" className="max-w-full w-full" />
+        <img src="./banner.png" alt="image description" className="max-w-full w-full" />
     </picture>
 </section>
 )

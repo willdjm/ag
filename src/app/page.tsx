@@ -2,9 +2,7 @@
 
 import { Banner } from "./components/Banner";
 import { Contact } from "./components/contact";
-import { Whatsapp } from "./components/Whatsapp";
 import { Footer } from "./components/Footer";
-import { ScrollToTop } from "./components/ScrollToTop";
 import { Section1Carousel } from "./components/Section1Carousel";
 import { Section2Assessoria } from "./components/Section2Assessoria";
 import { Section3Video } from "./components/Section3Video";
@@ -16,7 +14,6 @@ import { Section8About } from "./components/Section8About";
 import { Section9Follow } from "./components/Section9Follow";
 import { Section10App } from "./components/Section10App";
 import { Section11Partnership } from "./components/Section11Partnership";
-import { NavBarMobile } from "./components/NavBarMobile";
 
 export default function Home() {
 
@@ -37,8 +34,6 @@ return (
   <Section11Partnership />
   <Contact />
   <Footer/>
-  <Whatsapp />
-  {/* <ScrollToTop/> */}
 </main>
 )
 }

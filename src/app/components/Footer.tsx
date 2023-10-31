@@ -1,11 +1,31 @@
+"use client";
 import { FooterMenu } from "./FooterMenu";
+import { useEffect, useState } from "react";
+import { Whatsapp } from "./Whatsapp";
+
 
 export function Footer() {
+  const [pageYOffset, setPageYOffset] = useState<number | undefined>(undefined);
+  const listenScrollEvent = () => {
+    setPageYOffset(window.pageYOffset);
+  };
+
+  useEffect(() => {
+    setPageYOffset(window.pageYOffset);
+    window.addEventListener("scroll", listenScrollEvent);
+
+    return () => {
+      window.removeEventListener("scroll", listenScrollEvent);
+    };
+  }, []);
 
   return (
+<>
+  {pageYOffset && pageYOffset >= 0 && (
     <>
     <div>
     <FooterMenu/>
+    <Whatsapp />
     </div>
     <footer
       className="md:fixed hidden lg:w-screen md:z-30 md:bottom-0 lg:flex md:items-center md:justify-center" >
@@ -27,6 +47,9 @@ export function Footer() {
       </picture>
       </footer>
       </>
+      )}
+   </>
   );
 }
+
 
