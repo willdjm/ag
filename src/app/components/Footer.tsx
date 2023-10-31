@@ -1,9 +1,15 @@
+import { FooterMenu } from "./FooterMenu";
+
 export function Footer() {
 
   return (
     <>
+    <div>
+    <FooterMenu/>
+    </div>
     <footer
-      className="md:fixed hidden lg:w-screen md:z-50 md:bottom-0 lg:flex md:items-center md:justify-center" >
+      className="md:fixed hidden lg:w-screen md:z-30 md:bottom-0 lg:flex md:items-center md:justify-center" >
+              
         <figure className='flex items-center justify-center justify-items-center'>
         <picture >
         <img src="./Group2.svg" alt="image description" className="md:max-w-full md:w-screen"/>

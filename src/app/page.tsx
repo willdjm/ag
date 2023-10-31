@@ -16,15 +16,13 @@ import { Section8About } from "./components/Section8About";
 import { Section9Follow } from "./components/Section9Follow";
 import { Section10App } from "./components/Section10App";
 import { Section11Partnership } from "./components/Section11Partnership";
-import { NavBar } from "./components/NavBar";
+import { NavBarMobile } from "./components/NavBarMobile";
 
 export default function Home() {
 
 return (
 
 <main>
-
-  <NavBar/>
   <Banner />
   <Section1Carousel />
   <Section2Assessoria />

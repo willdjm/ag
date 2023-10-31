@@ -14,7 +14,7 @@ return (
           <p className="text-center lg:text-center text-white text-sm max-w-xl mb-10">
             Veja algumas das corrias de rua oficiais em que a Águia Assessoria Esportiva ajudou alunos a se prepararem e participarem:</p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:justify-center lg:items-center lg:gap-5 gap-2 p-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:justify-center lg:items-center lg:gap-5 gap-2 p-3">
 
           <button>
             <a
@@ -38,7 +38,7 @@ return (
             </a>
           </button>
 
-          <button>
+          {/* <button>
             <a
               className={
                 "flex lg:max-w-xs lg:p-5 lg:px-5 lg:py-4 py-3 px-2 items-center justify-center bg-white shadow-md w-full" +
@@ -58,7 +58,7 @@ return (
                 <img src="./logo-casa-do-corre1.svg" alt="" className="h-16" />
               </picture>
             </a>
-          </button>
+          </button> */}
 
           <button>
             <a
@@ -126,7 +126,7 @@ return (
             </a>
           </button>
 
-          <button>
+           <button>
             <a
               className={
                 "flex lg:max-w-xs lg:p-5 lg:px-5 lg:py-4 py-3 px-2 items-center justify-center bg-white shadow-md w-full" +
@@ -146,7 +146,7 @@ return (
                 <img src="./logo-sargento-gonzaguinha2.svg" alt="" className="h-16" />
               </picture>
             </a>
-          </button>
+          </button> 
 
           <button>
             <a
@@ -170,7 +170,7 @@ return (
             </a>
           </button>
 
-          <button>
+          {/* <button>
             <a
               className={
                 "flex lg:max-w-xs lg:p-5 lg:px-5 lg:py-4 py-3 px-2 items-center justify-center bg-white shadow-md w-full" +
@@ -190,7 +190,7 @@ return (
                 <img src="/logo-track-field1.svg" alt="" className="h-16" />
               </picture>
             </a>
-          </button>
+          </button> */}
 
         </div>
         <div className="relative flex flex-col w-full items-center justify-center">

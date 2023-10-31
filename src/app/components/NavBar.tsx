@@ -2,12 +2,15 @@ import Image from 'next/image';
 import Linkk from 'next/link';
 import { useState } from 'react';
 import { Link } from 'react-scroll';
+import { BiMenu } from 'react-icons/bi';
+import { IoCloseSharp } from 'react-icons/io5';
+
 
 export function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div id='Top'>
-      <nav className="w-full fixed top-0 left-0 right-0 z-10 ">
+      <nav className="w-full top-0 left-0 right-0 z-10">
         <div className="justify-between mx-auto lg:max-w-6xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:block">
@@ -24,15 +27,10 @@ export function NavBar() {
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <Image src="./close.svg" width={30} height={30} alt="logo" />
-                  ) : (
-                    <Image
-                      src="./hamburger-menu.svg"
-                      width={30}
-                      height={30}
-                      alt="logo"
-                      className="focus:border-none active:border-none"
-                    />
+                    <IoCloseSharp size={30} className='text-white'/>
+                    ) : (
+                    <BiMenu size={30} className='text-white'/>
+
                   )}
                 </button>
               </div>
